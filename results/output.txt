@@ -1,0 +1,90 @@
+REU ASSIGNMENT 1: GOOGLE COLAB OUTPUT
+
+1. EPOCH-BY-EPOCH TRAINING AND VALIDATION LOGS
+
+[Learning rate: 0.0001 | Network size: (32, 64, 128)]
+LR 0.0001          | epoch  1/10 | train loss 2.2208, acc 34.29% | val loss 2.0951, acc 46.36%
+LR 0.0001          | epoch  2/10 | train loss 1.7641, acc 58.55% | val loss 1.3422, acc 66.30%
+LR 0.0001          | epoch  3/10 | train loss 1.0497, acc 69.68% | val loss 0.8654, acc 72.17%
+LR 0.0001          | epoch  4/10 | train loss 0.7695, acc 73.85% | val loss 0.7209, acc 74.73%
+LR 0.0001          | epoch  5/10 | train loss 0.6719, acc 76.28% | val loss 0.6538, acc 76.71%
+LR 0.0001          | epoch  6/10 | train loss 0.6231, acc 77.75% | val loss 0.6195, acc 77.74%
+LR 0.0001          | epoch  7/10 | train loss 0.5902, acc 78.94% | val loss 0.5892, acc 78.69%
+LR 0.0001          | epoch  8/10 | train loss 0.5673, acc 79.67% | val loss 0.5674, acc 79.53%
+LR 0.0001          | epoch  9/10 | train loss 0.5485, acc 80.35% | val loss 0.5535, acc 79.92%
+LR 0.0001          | epoch 10/10 | train loss 0.5320, acc 81.00% | val loss 0.5356, acc 80.65%
+
+[Baseline | Learning rate: 0.001 | Network size: (32, 64, 128)]
+Baseline           | epoch  1/10 | train loss 1.0039, acc 67.86% | val loss 0.5719, acc 78.64%
+Baseline           | epoch  2/10 | train loss 0.5133, acc 81.20% | val loss 0.4808, acc 82.96%
+Baseline           | epoch  3/10 | train loss 0.4468, acc 83.88% | val loss 0.4542, acc 83.32%
+Baseline           | epoch  4/10 | train loss 0.4089, acc 85.37% | val loss 0.4068, acc 85.39%
+Baseline           | epoch  5/10 | train loss 0.3839, acc 86.14% | val loss 0.3732, acc 86.95%
+Baseline           | epoch  6/10 | train loss 0.3634, acc 87.06% | val loss 0.3815, acc 86.02%
+Baseline           | epoch  7/10 | train loss 0.3470, acc 87.62% | val loss 0.3718, acc 86.30%
+Baseline           | epoch  8/10 | train loss 0.3347, acc 87.97% | val loss 0.3631, acc 87.16%
+Baseline           | epoch  9/10 | train loss 0.3208, acc 88.56% | val loss 0.3371, acc 87.82%
+Baseline           | epoch 10/10 | train loss 0.3104, acc 88.77% | val loss 0.3196, acc 88.77%
+
+[Learning rate: 0.01 | Network size: (32, 64, 128)]
+LR 0.01            | epoch  1/10 | train loss 0.5590, acc 79.75% | val loss 0.3619, acc 87.03%
+LR 0.01            | epoch  2/10 | train loss 0.3303, acc 87.85% | val loss 0.3052, acc 88.88%
+LR 0.01            | epoch  3/10 | train loss 0.2798, acc 89.73% | val loss 0.3033, acc 88.67%
+LR 0.01            | epoch  4/10 | train loss 0.2514, acc 90.77% | val loss 0.2748, acc 90.08%
+LR 0.01            | epoch  5/10 | train loss 0.2270, acc 91.56% | val loss 0.2576, acc 90.30%
+LR 0.01            | epoch  6/10 | train loss 0.2071, acc 92.43% | val loss 0.2509, acc 90.83%
+LR 0.01            | epoch  7/10 | train loss 0.1890, acc 93.06% | val loss 0.2434, acc 91.31%
+LR 0.01            | epoch  8/10 | train loss 0.1755, acc 93.57% | val loss 0.2531, acc 91.06%
+LR 0.01            | epoch  9/10 | train loss 0.1607, acc 94.07% | val loss 0.2423, acc 91.70%
+LR 0.01            | epoch 10/10 | train loss 0.1439, acc 94.77% | val loss 0.2314, acc 91.96%
+
+[Small network | Learning rate: 0.001 | Network size: (16, 32, 64)]
+Small network      | epoch  1/10 | train loss 1.1549, acc 63.68% | val loss 0.5935, acc 77.91%
+Small network      | epoch  2/10 | train loss 0.5339, acc 80.27% | val loss 0.4915, acc 82.26%
+Small network      | epoch  3/10 | train loss 0.4602, acc 83.26% | val loss 0.4729, acc 82.93%
+Small network      | epoch  4/10 | train loss 0.4205, acc 84.92% | val loss 0.4210, acc 84.66%
+Small network      | epoch  5/10 | train loss 0.3951, acc 85.78% | val loss 0.3801, acc 86.82%
+Small network      | epoch  6/10 | train loss 0.3755, acc 86.62% | val loss 0.3937, acc 85.43%
+Small network      | epoch  7/10 | train loss 0.3621, acc 87.07% | val loss 0.3848, acc 86.00%
+Small network      | epoch  8/10 | train loss 0.3510, acc 87.46% | val loss 0.3743, acc 86.80%
+Small network      | epoch  9/10 | train loss 0.3380, acc 87.82% | val loss 0.3612, acc 87.13%
+Small network      | epoch 10/10 | train loss 0.3284, acc 88.27% | val loss 0.3381, acc 88.35%
+
+[Large network | Learning rate: 0.001 | Network size: (64, 128, 256)]
+Large network      | epoch  1/10 | train loss 0.8918, acc 70.65% | val loss 0.5489, acc 79.41%
+Large network      | epoch  2/10 | train loss 0.4961, acc 82.01% | val loss 0.4636, acc 83.61%
+Large network      | epoch  3/10 | train loss 0.4286, acc 84.58% | val loss 0.4376, acc 84.11%
+Large network      | epoch  4/10 | train loss 0.3923, acc 85.90% | val loss 0.3920, acc 85.81%
+Large network      | epoch  5/10 | train loss 0.3655, acc 86.81% | val loss 0.3555, acc 87.33%
+Large network      | epoch  6/10 | train loss 0.3457, acc 87.74% | val loss 0.3688, acc 86.35%
+Large network      | epoch  7/10 | train loss 0.3301, acc 88.29% | val loss 0.3605, acc 86.83%
+Large network      | epoch  8/10 | train loss 0.3170, acc 88.59% | val loss 0.3430, acc 87.76%
+Large network      | epoch  9/10 | train loss 0.3045, acc 89.05% | val loss 0.3316, acc 87.90%
+Large network      | epoch 10/10 | train loss 0.2937, acc 89.36% | val loss 0.3084, acc 88.99%
+
+2. FINAL CONFIGURATION SUMMARY
+
+configuration | learning_rate | network_size | parameters | train_time_s | train_loss | train_accuracy | validation_time_s | validation_loss | validation_accuracy | generalization_gap_pp
+LR 0.0001 | 0.0001 | (32, 64, 128) | 421,642 | 123.02 | 0.5239 | 81.35% | 20.956 | 0.5356 | 80.65% | 0.70
+Baseline | 0.001 | (32, 64, 128) | 421,642 | 114.97 | 0.2969 | 89.49% | 18.209 | 0.3196 | 88.77% | 0.72
+LR 0.01 | 0.01 | (32, 64, 128) | 421,642 | 115.31 | 0.1206 | 95.60% | 17.993 | 0.2314 | 91.96% | 3.64
+Small network | 0.001 | (16, 32, 64) | 105,866 | 115.24 | 0.3153 | 88.69% | 19.906 | 0.3381 | 88.35% | 0.34
+Large network | 0.001 | (64, 128, 256) | 1,682,954 | 116.98 | 0.2817 | 90.00% | 18.454 | 0.3084 | 88.99% | 1.01
+
+3. GENERATED COMPARISONS
+
+Learning-rate comparison
+The best tested learning rate was 0.01, with validation accuracy 91.96% and loss 0.2314.
+Increasing the rate from 0.0001 to 0.01 changed final validation accuracy from 80.65% to 91.96%. A very small rate can under-converge within a fixed epoch budget, while a large rate can converge faster but may oscillate around a minimum.
+
+Network-size comparison
+The best tested size was (64, 128, 256), with 1,682,954 trainable parameters and validation accuracy 88.99%.
+The small and large networks obtained 88.35% and 88.99% validation accuracy, respectively. Their training times were 115.24s and 116.98s. Greater width raises representational capacity and computational cost. It improves performance only when the additional capacity reduces underfitting more than it increases optimization difficulty or overfitting.
+The large network's train-validation accuracy gap was 1.01 percentage points. A larger positive gap is evidence of stronger overfitting.
+
+4. SELECTED MODEL TEST RESULT
+
+Selected configuration: LR 0.01
+Test loss: 0.2516
+Test accuracy: 91.50%
+Test evaluation time: 1.783s
