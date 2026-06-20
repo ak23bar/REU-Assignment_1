@@ -52,6 +52,10 @@ Validation accuracy selected the `LR 0.01` configuration. On the untouched test 
 
 ![Validation loss and accuracy by epoch](results/plots.png)
 
+## Conclusion
+
+The experiment showed that learning rate had a greater effect on model performance than network size within the fixed 10-epoch budget. Increasing the learning rate from `0.0001` to `0.01` improved validation accuracy from 80.65% to 91.96% and reduced validation loss from 0.5356 to 0.2314, demonstrating substantially faster convergence, although the 3.64-point train-validation gap indicated increased overfitting. Increasing network size from 105,866 to 1,682,954 parameters improved validation accuracy by only 0.64 percentage points, from 88.35% to 88.99%, while increasing the generalization gap from 0.34 to 1.01 percentage points. Training times remained similar across network sizes on the T4 GPU, so the additional capacity produced only a marginal performance benefit under these conditions. Overall, the `0.01` learning-rate configuration provided the strongest balance among convergence, validation loss, and accuracy, and its 91.50% test accuracy confirmed that the selected model generalized effectively to unseen data.
+
 ## Reproducibility
 
 The complete implementation is available in [REU_Assignment_1.ipynb](REU_Assignment_1.ipynb). The [executed notebook is also available through Google Drive](https://drive.google.com/file/d/12cZhHtWGHarQ5Y1nrybc7SScpvY1sjuT/view?usp=sharing). I executed the experiment in Google Colab using a T4 GPU and a fixed random seed of `1024`. All configurations were evaluated in the same runtime session. The retained console output is available in [results/output.txt](results/output.txt), and the summary table is preserved in [results/tablese.png](results/tablese.png).
